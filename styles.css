@@ -1,21 +1,153 @@
+
 header {
     background-color: #1f2937;
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid red;
 }
 
-header h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
+nav {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+
 }
 
-.alignH1Img {
+ul, li {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     font-size: 18px;
+    color: #e5e7eb; 
 }
 
 .headLogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 10px;
     font-size: 24px;
     color: #f9faf8;
+}
+
+.rightLinks {
+    display: flex;
+    flex-direction: row;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+    margin: ;
+    gap: 10px;
+    position: relative;
+    border: 2px solid pink;
+    text-align: right;
     list-style-type: none;
+    
+}
+
+ .headerImage {
+    width: 300px;
+    border-radius: 20%;
+    display: flex;
+    border: 2px solid teal;
+    flex-order: 2;
+    flex-wrap: wrap;
+
+} 
+
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    display: flex;
+    border: 2px solid purple;
+    padding: 0px;
+    margin: 0;
+}
+
+.awesomePara {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.headerSignUp {
+    background-color: #3882f6;
+    color: white;
+
+}
+
+.alignedH1Img {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+.imgGally {
+    height: 150px; 
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+.footsies {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.footsies p {
+    text-align: center;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footsies h3{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footsiesBtn {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8
+}
+
+.footer  {
+    background-color: #1f2937;
+    height: 100px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

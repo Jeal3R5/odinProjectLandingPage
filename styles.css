@@ -5,7 +5,7 @@ header {
     display: flex;   
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: "Roboto", sans-serif;
     padding-left: 150px;
     padding-right: 150px;
@@ -21,17 +21,17 @@ nav {
     padding-bottom: 50px;
 }
 
-ul, li {
+ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: #e5e7eb; 
+    /* color: #e5e7eb;  */
     align-content: stretch;
     justify-content: space-between;
     
-}
+} 
 
 .headLogo {
     display: flex;
@@ -42,6 +42,7 @@ ul, li {
     color: #f9faf8;
     text-decoration: none;
     padding-left: 35px;
+    list-style-type: none;
 }
 
 .rightLinks {
@@ -58,6 +59,11 @@ ul, li {
     padding-right: 30px
 }
 
+a:visited {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 /* Hero Text and Img */
 
  .headerImage {
@@ -67,7 +73,6 @@ ul, li {
     border: 2px solid teal;
     margin-left: auto;
     margin-right: auto;
-    
 
 } 
 
